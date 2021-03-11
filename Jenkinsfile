@@ -1,8 +1,5 @@
-// updated 1
 pipeline{
-    agent{
-        label 'linux'
-    }
+    agent{ label 'linux' }
     stages{
         stage('Hello from github'){
             steps{
